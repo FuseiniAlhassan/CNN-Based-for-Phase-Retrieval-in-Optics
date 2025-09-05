@@ -23,7 +23,7 @@ The pipeline:
 3. **Evaluates** on a test set with visual and quantitative metrics
 4. **Post‑processes** outputs using adaptive local thresholding
 
-
+![](cnn_phase_retrieval/outputs/plots/cnn_model_plot_display.png)
 
 ## Features
 - **Synthetic Data Generation**:
