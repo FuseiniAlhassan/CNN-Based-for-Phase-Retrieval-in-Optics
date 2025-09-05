@@ -23,27 +23,30 @@ The pipeline:
 3. **Evaluates** on a test set with visual and quantitative metrics
 4. **Post‑processes** outputs using adaptive local thresholding
 
-![](cnn_phase_retrieval/outputs/plots/cnn_model_plot_display.png)
-
 ## Features
 - **Synthetic Data Generation**:
   - Random circular object patterns
   - Additive Gaussian noise to simulate holograms
 - **CNN Architecture**:
   - Single Conv2D downsampling layer
+ ![](cnn_phase_retrieval/outputs/plots/cnn_model_plot_display.png)
+
+- 
   - Single Conv2DTranspose upsampling layer
+  - ![](cnn_phase_retrieval/outputs/plots/model_plot.png)
+
   - MSE loss, Adam optimizer
 - **Visualization**:
   - Sample input/ground‑truth pairs
   - Model architecture diagram
   - Training/validation loss curves
+  - ![](cnn_phase_retrieval/outputs/plots/training_loss.png)
   - Prediction grids with post‑processing
  ![](cnn_phase_retrieval/outputs/plots/predictions.png)
   - 
 - **Automated Output Management**:
   - Plots, models, and GIFs saved in structured folders
 
-![](cnn_phase_retrieval/outputs/plots/model_plot.png)
 
 ## Requirements
 - Python 3.x
