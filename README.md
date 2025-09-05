@@ -38,6 +38,8 @@ The pipeline:
   - Model architecture diagram
   - Training/validation loss curves
   - Prediction grids with post‑processing
+ ![](cnn_phase_retrieval/outputs/plots/predictions.png)
+  - 
 - **Automated Output Management**:
   - Plots, models, and GIFs saved in structured folders
 
