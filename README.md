@@ -41,6 +41,7 @@ The pipeline:
 - **Automated Output Management**:
   - Plots, models, and GIFs saved in structured folders
 
+![](cnn_phase_retrieval/outputs/plots/model_plot.png)
 
 ## Requirements
 - Python 3.x
